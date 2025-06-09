@@ -9,7 +9,6 @@ A RESTful API for managing employee data, built with ASP.NET Core and SQL Server
 
 ## Technologies Used
 - ASP.NET Core 6
-- Entity Framework Core
 - SQL Server
 - Swagger/OpenAPI
 
