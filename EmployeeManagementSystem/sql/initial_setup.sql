@@ -30,7 +30,7 @@ CREATE TABLE [dbo].[Employees] (
     [isactive]          INT             NULL,
     PRIMARY KEY CLUSTERED ([employee_id] ASC),
     CONSTRAINT [for_role] FOREIGN KEY ([role]) REFERENCES [dbo].[roles] ([role]),
-    CONSTRAINT [chk_gender] CHECK ([gender] IN ('MALE', 'FEMALE', 'OTHER'))
+    CONSTRAINT [chk_gender] CHECK ([gender] IN ('Male', 'Female', 'Other'))
 );
 GO
 
@@ -60,7 +60,7 @@ VALUES (
     111111,
     'Admin',
     'admin@11',
-    'MALE',
+    'Male',
     '2000-04-04',
     NULL,
     'admin@example.com',
