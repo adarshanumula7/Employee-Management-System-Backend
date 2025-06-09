@@ -8,7 +8,7 @@ A RESTful API for managing employee data, built with ASP.NET Core and SQL Server
 - JWT authentication
 
 ## Technologies Used
-- ASP.NET Core 6
+- ASP.NET Core 8
 - SQL Server
 - Swagger/OpenAPI
 
