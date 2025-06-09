@@ -6,7 +6,6 @@ A RESTful API for managing employee data, built with ASP.NET Core and SQL Server
 ## Features
 - CRUD operations for employees
 - JWT authentication
-- Database migrations with EF Core
 
 ## Technologies Used
 - ASP.NET Core 6
